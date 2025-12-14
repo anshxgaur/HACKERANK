@@ -1,4 +1,0 @@
-if __name__ == '__main__':
-    n = int(raw_input())                      # number of elements
-    integer_list = tuple(map(int, raw_input().split()))  # create tuple
-    print hash(integer_list)                  # print hash of the tuple
